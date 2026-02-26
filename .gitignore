@@ -1,0 +1,22 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.venv/
+
+# Build artifacts and temporary files
+/build/
+/dist/
+*.log
+*.tmp
+__pycache__/
+node_modules/
+
+# IDE files (example for VS Code)
+.vscode/
+
+# Sensitive data (customize as needed)
+credentials.json
+api_keys.txt

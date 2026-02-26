@@ -1,9 +1,20 @@
 {
   "name": "movietinder",
-  "homepage": "https://deku99hh.github.io/movieTinder/",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "homepage": "https://deku99hh.github.io/movieTinder/",
+  "bugs": {
+    "url": "https://github.com/deku99hh/movieTinder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deku99hh/movieTinder.git"
+  },
+  "license": "ISC",
+  "author": "deku99hh",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
